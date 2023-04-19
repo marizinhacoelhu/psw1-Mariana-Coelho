@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    grid-template-rows: 60px 1fr 80px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form{
+    width: 500px;
+}
+
+.bg-body-pink{
+    background-color: rgb(242, 207, 255) !important;
+}
